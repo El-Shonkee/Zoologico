@@ -1,0 +1,14 @@
+Model\DomesticAnimals.class
+Control\GestionAnimal.class
+Control\CommercialDep.class
+Control\LogisticsDep.class
+View\Zoologico.class
+Model\Users.class
+Utilidades\ManagementDate.class
+Utilidades\ManagementReading.class
+Model\People.class
+Model\Animals.class
+Control\ManagementDep.class
+View\MENU.class
+Model\Plans.class
+Model\WildAnimals.class
