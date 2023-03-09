@@ -4,14 +4,58 @@
  */
 package Control;
 
+import Model.People;
+
+import java.util.Date;
+
 /**
  *
  * @author andrea.correaa1
  */
-public class ManagementDep {
-    
-    public static void accounting (){
+public class ManagementDep extends People {
 
-        System.out.println("hello wold br");
+    String workCode;
+    double salary;
+
+    public ManagementDep(String name, Date age, String id, String email, String phone, String workCode, double salary) {
+        super(name, age, id, email, phone);
+        this.workCode = workCode;
+        this.salary = salary;
+    }
+
+    public ManagementDep() {
+
+    }
+
+    private createPlan(){
+
+    }
+
+    private modifyPlan(){
+
+    }
+
+    private deletePlan(){
+
+    }
+
+    private createSeasonTicket(){
+
+    }
+
+    public String getWorkCode() {
+        return workCode;
+    }
+
+    public void setWorkCode(String workCode) {
+        this.workCode = workCode;
+    }
+
+    public double getSalary() {
+        return salary;
+    }
+
+    public void setSalary(double salary) {
+        this.salary = salary;
     }
 }

@@ -11,15 +11,20 @@ package Model;
 public class Animals {
     String name, type, species;
     float age, weight;
-    int quantity;
+    int quantity,zone;
 
-    public Animals(String name, String type, String species, float weight, int quantity, float age) {
+    public Animals(String name, String type, String species, float age, float weight, int quantity, int zone) {
         this.name = name;
         this.type = type;
         this.species = species;
+        this.age = age;
         this.weight = weight;
         this.quantity = quantity;
-        this.age = age;
+        this.zone = zone;
+    }
+
+    public Animals(){
+
     }
     public String getName() {
         return name;
@@ -57,6 +62,14 @@ public class Animals {
 
     public void setAge(float age) {
         this.age = age;
+    }
+
+    public int getZone() {
+        return zone;
+    }
+
+    public void setZone(int zone) {
+        this.zone = zone;
     }
 }
 

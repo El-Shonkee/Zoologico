@@ -11,16 +11,10 @@ package Model;
 public class DomesticAnimals extends Animals {
     String color;
 
-    public DomesticAnimals(String name, String type, String species, float weight, int quantity, float age, String color) {
-        super(name, type, species, weight, quantity, age);
+    public DomesticAnimals(String name, String type, String species, float age, float weight, int quantity, int zone, String color) {
+        super(name, type, species, age, weight, quantity, zone);
         this.color = color;
     }
 
-    public String getColor() {
-        return color;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
-    }
+    public DomesticAnimals(){}
 }

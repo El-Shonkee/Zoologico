@@ -13,8 +13,13 @@ import java.util.Date;
 public class Users extends People {
     int concurrency;
 
-    public Users(String name, Date age, String id, int concurrency) {
-        super(name, age, id);
+
+    public Users(String name, Date age, String id, String email, String phone, int concurrency) {
+        super(name, age, id, email, phone);
+        this.concurrency = concurrency;
+    }
+
+    public Users(int concurrency) {
         this.concurrency = concurrency;
     }
 

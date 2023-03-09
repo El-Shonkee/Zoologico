@@ -15,16 +15,34 @@ import java.util.Date;
 public class People {
     String name;
     Date age;
-    String id;
+    String id, email, phone;
 
-    public People(String name, Date age, String id) {
+    public People(String name, Date age, String id,String email, String phone) {
         this.name = name;
         this.age = age;
         this.id = id;
+        this.email = email;
+        this.phone = phone;
     }
 
     public People(){
 
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 
     public String getName() {

@@ -12,11 +12,14 @@ public class WildAnimals extends Animals {
    String habitat, dietType;
    int danger;
 
-    public WildAnimals(String name, String type, String species, float weight, int quantity, float age, String habitat, String dietType, int danger) {
-        super(name, type, species, weight, quantity, age);
+    public WildAnimals(String name, String type, String species, float age, float weight, int quantity, int zone, String habitat, String dietType, int danger) {
+        super(name, type, species, age, weight, quantity, zone);
         this.habitat = habitat;
         this.dietType = dietType;
         this.danger = danger;
+    }
+    public WildAnimals(){
+
     }
 
     public String getHabitat() {
@@ -41,5 +44,6 @@ public class WildAnimals extends Animals {
 
     public void setDanger(int danger) {
         this.danger = danger;
+
     }
 }
