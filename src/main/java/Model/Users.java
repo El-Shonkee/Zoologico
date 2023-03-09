@@ -17,7 +17,7 @@ public class Users extends People {
 
 
     public Users(String name, Date age, String id, String email, String phone, int concurrency) {
-        super(name, age, id, email, phone);
+        super(name, age, id,phone,email);
         this.concurrency = concurrency;
     }
 

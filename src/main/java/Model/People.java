@@ -17,7 +17,7 @@ public class People {
     Date age;
     String id, email, phone;
 
-    public People(String name, Date age, String id,String email, String phone) {
+    public People(String name, Date age, String id, String email, String phone) {
         this.name = name;
         this.age = age;
         this.id = id;
@@ -68,4 +68,5 @@ public class People {
     public void setId(String id) {
         this.id = id;
     }
+
 }
