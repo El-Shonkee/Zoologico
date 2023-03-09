@@ -62,15 +62,12 @@ public class Animals {
     public float getAge() {
         return age;
     }
-
     public void setAge(float age) {
         this.age = age;
     }
-
     public int getZone() {
         return zone;
     }
-
     public void setZone(int zone) {
         this.zone = zone;
     }
