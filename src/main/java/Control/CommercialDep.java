@@ -19,7 +19,7 @@ public class CommercialDep extends People {
     ArrayList<CommercialDep> commercialDepList = new ArrayList<CommercialDep>();
 
     public CommercialDep(String name, Date age, String id, String email, String phone, String workCode, double salary) {
-        super(name, age, id, email, phone);
+        super(name, age, id,email,phone);
         this.workCode = workCode;
         this.salary = salary;
     }

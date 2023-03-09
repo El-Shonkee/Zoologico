@@ -14,16 +14,17 @@ import java.util.Date;
  *
  * @author andrea.correaa1
  */
-public class LogisticsDep extends People {
+public class LogisticsDep extends People{
     String workCode;
     double salary;
     ArrayList<LogisticsDep> logisticsDepList = new ArrayList<LogisticsDep>();
 
-    public LogisticsDep(String name, Date age, String id, String workCode, double salary) {
-        super(name, age, id);
+    public LogisticsDep(String name, Date age, String id, String email, String phone, String workCode, double salary) {
+        super(name, age, id, email, phone);
         this.workCode = workCode;
         this.salary = salary;
     }
+
     public LogisticsDep() {
     }
 
