@@ -11,6 +11,7 @@ package Control;
 public class ManagementDep {
     
     public static void accounting (){
+
         System.out.println("hello wold br");
-}
+    }
 }

@@ -8,6 +8,19 @@ package Model;
  *
  * @author andrea.correaa1
  */
-public class DomesticAnimals {
-    
+public class DomesticAnimals extends Animals {
+    String color;
+
+    public DomesticAnimals(String name, String type, String species, float weight, int quantity, float age, String color) {
+        super(name, type, species, weight, quantity, age);
+        this.color = color;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
 }
