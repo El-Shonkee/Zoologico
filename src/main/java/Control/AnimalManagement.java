@@ -17,7 +17,7 @@ public class AnimalManagement extends People {
     double salary;
 
     public AnimalManagement(String name, Date age, String id, String email, String phone, String workCode, double salary) {
-        super(name, age, id, email, phone);
+        super(name, age, id,email,phone);
         this.workCode = workCode;
         this.salary = salary;
     }
