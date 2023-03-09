@@ -6,6 +6,7 @@ package Control;
 
 import Model.People;
 
+import java.util.ArrayList;
 import java.util.Date;
 
 /**
@@ -15,6 +16,7 @@ import java.util.Date;
 public class CommercialDep extends People {
     String workCode;
     double salary;
+    ArrayList<CommercialDep> commercialDepList = new ArrayList<CommercialDep>();
 
     public CommercialDep(String name, Date age, String id, String email, String phone, String workCode, double salary) {
         super(name, age, id, email, phone);

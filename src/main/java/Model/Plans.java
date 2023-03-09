@@ -4,6 +4,8 @@
  */
 package Model;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author andrea.correaa1
@@ -22,6 +24,7 @@ public class Plans {
     double priceChildTicket;
     String souvenir;
     double priceSouvenir;
+    ArrayList<Plans> planList = new ArrayList<Plans>();
 
     public Plans(int idPlan, String namePlan, String descriptionPlan, String days, String hours, String duration, int pricePlan, int accountingPeople, double priceSubscription, double priceAdultTicket, double priceChildTicket, String souvenir, double priceSouvenir) {
         this.idPlan = idPlan;

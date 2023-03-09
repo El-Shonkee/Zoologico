@@ -4,6 +4,7 @@
  */
 package Model;
 
+import java.util.ArrayList;
 import java.util.Date;
 
 /**
@@ -12,6 +13,7 @@ import java.util.Date;
  */
 public class Users extends People {
     int concurrency;
+    ArrayList<Users> userList = new ArrayList<Users>();
 
 
     public Users(String name, Date age, String id, String email, String phone, int concurrency) {

@@ -6,6 +6,7 @@ package Control;
 
 import Model.People;
 
+import java.util.ArrayList;
 import java.util.Date;
 
 /**
@@ -16,6 +17,7 @@ public class ManagementDep extends People {
 
     String workCode;
     double salary;
+    ArrayList<ManagementDep> managementDepList = new ArrayList<ManagementDep>();
 
     public ManagementDep(String name, Date age, String id, String email, String phone, String workCode, double salary) {
         super(name, age, id, email, phone);
@@ -40,6 +42,10 @@ public class ManagementDep extends People {
     }
 
     private createSeasonTicket(){
+
+    }
+
+    private modifyTicketPrices(){
 
     }
 

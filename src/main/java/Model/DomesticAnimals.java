@@ -4,12 +4,15 @@
  */
 package Model;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author andrea.correaa1
  */
 public class DomesticAnimals extends Animals {
     String color;
+    ArrayList<DomesticAnimals> domesticAnimalsList =new ArrayList<DomesticAnimals>();
 
     public DomesticAnimals(String name, String type, String species, float age, float weight, int quantity, int zone, String color) {
         super(name, type, species, age, weight, quantity, zone);

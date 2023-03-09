@@ -4,6 +4,8 @@
  */
 package Model;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author andrea.correaa1
@@ -11,6 +13,7 @@ package Model;
 public class WildAnimals extends Animals {
    String habitat, dietType;
    int danger;
+   ArrayList<WildAnimals> wildAnimalsList = new ArrayList<WildAnimals>();
 
     public WildAnimals(String name, String type, String species, float age, float weight, int quantity, int zone, String habitat, String dietType, int danger) {
         super(name, type, species, age, weight, quantity, zone);

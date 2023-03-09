@@ -4,8 +4,10 @@
  */
 package Control;
 
+import Model.Animals;
 import Model.People;
 
+import java.util.ArrayList;
 import java.util.Date;
 
 /**
@@ -15,6 +17,7 @@ import java.util.Date;
 public class LogisticsDep extends People {
     String workCode;
     double salary;
+    ArrayList<LogisticsDep> logisticsDepList = new ArrayList<LogisticsDep>();
 
     public LogisticsDep(String name, Date age, String id, String workCode, double salary) {
         super(name, age, id);

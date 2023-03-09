@@ -4,6 +4,8 @@
  */
 package Model;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author andrea.correaa1
@@ -12,6 +14,7 @@ public class Animals {
     String name, type, species;
     float age, weight;
     int quantity,zone;
+    ArrayList<Animals> listAnimals = new ArrayList<Animals>();
 
     public Animals(String name, String type, String species, float age, float weight, int quantity, int zone) {
         this.name = name;
